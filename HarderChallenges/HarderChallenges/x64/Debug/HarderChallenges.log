@@ -1,1 +1,3 @@
-﻿  HarderChallenges.vcxproj -> C:\Github\C-and-Unreal-Projects\HarderChallenges\x64\Debug\HarderChallenges.exe
+﻿  HarderChallenges.cpp
+C:\Github\C-and-Unreal-Projects\HarderChallenges\HarderChallenges\HarderChallenges.cpp(84,5): warning C4809: switch statement has redundant 'default' label; all possible 'case' labels are given
+  HarderChallenges.vcxproj -> C:\Github\C-and-Unreal-Projects\HarderChallenges\x64\Debug\HarderChallenges.exe
