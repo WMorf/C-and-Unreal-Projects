@@ -7,16 +7,46 @@ void testFunction() //MAIN() FUNCTION CHALLENGE, Declare your own function.
 	cout << "Test\n";
 }
 
+void testFunction(string message) //Overloaded Method
+{
+	cout << message << "\n";
+}
+
 int testFunction2(int a, int b) //FUNCTION CHALLENGE
 {
 	int result = a + b;
 	return result;
 }
 
-int testFunction3(int& a, int& b)
+void testFunction3(string &a, string b) //Passes in reference and changes it to a new value
 {
-
+	a = b;
+	cout << a << "\n";
 }
+
+class NewClass //CLASS CHALLENGE
+{
+	public:
+		int id;
+		string myName;
+
+	NewClass(int num, string name)
+	{
+		id = num;
+		myName = name;
+		cout << myName << " Was Created\n";
+	}
+
+	void Identify()
+	{
+		cout << id << " "  << myName << "\n";
+	}
+};
+
+class EvenNewerClass //Constructer CHallenge
+{
+	string myName;
+};
 
 void main()
 {
@@ -55,20 +85,26 @@ void main()
 	
 	testFunction();
 	cout << testFunction2(5,9) << "\n";
+	testFunction3(base, "New Value");
+	testFunction("Message");
 
 	cout << "\n";
 
 	//CLASS CHALLENGE 
 	cout << "//CLASS CHALLENGE \n";
 
-
+	NewClass obj1(1, "Bob");
+	NewClass obj2(2, "Larry");
+	NewClass obj3(3, "Steve");
 
 	cout << "\n";
 
 	//CLASS METHODS CHALLENGE
 	cout << "//CLASS METHODS CHALLENGE\n";
 
-
+	obj1.Identify();
+	obj2.Identify();
+	obj3.Identify();
 
 	cout << "\n";
 

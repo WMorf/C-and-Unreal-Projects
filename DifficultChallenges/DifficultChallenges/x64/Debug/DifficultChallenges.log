@@ -1,3 +1,3 @@
 ﻿  DifficultChallenges.cpp
-C:\Github\C-and-Unreal-Projects\DifficultChallenges\DifficultChallenges\DifficultChallenges.cpp(17,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+C:\Github\C-and-Unreal-Projects\DifficultChallenges\DifficultChallenges\DifficultChallenges.cpp(47,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
   DifficultChallenges.vcxproj -> C:\Github\C-and-Unreal-Projects\DifficultChallenges\x64\Debug\DifficultChallenges.exe
