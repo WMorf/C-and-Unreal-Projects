@@ -1,0 +1,4 @@
+﻿  ClassChallenge.cpp
+C:\Github\C-and-Unreal-Projects\ClassChallenge\ClassChallenge\ClassChallenge.cpp(35,24): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Github\C-and-Unreal-Projects\ClassChallenge\ClassChallenge\ClassChallenge.cpp(48,24): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  ClassChallenge.vcxproj -> C:\Github\C-and-Unreal-Projects\ClassChallenge\x64\Debug\ClassChallenge.exe
