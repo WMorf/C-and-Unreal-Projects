@@ -1,0 +1,5 @@
+2023/01/12-15:42:58.069 830 Reusing MANIFEST D:/GitHub/C-and-Unreal-Projects/TestWorld/Saved/webcache_4147\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/01/12-16:04:41.679 dfc Level-0 table #5: started
+2023/01/12-16:04:42.530 dfc Level-0 table #5: 7493 bytes OK
+2023/01/12-16:04:42.603 dfc Delete type=0 #3
+2023/01/12-16:04:42.603 dfc Manual compaction at level-0 from (begin) .. (end); will stop at (end)
